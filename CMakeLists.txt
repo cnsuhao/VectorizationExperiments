@@ -6,3 +6,4 @@ SET(VTKm_DIR "" CACHE FILEPATH "Path to a VTK-m build or installation")
 FIND_PACKAGE(VTKm REQUIRED)
 
 ADD_SUBDIRECTORY("tile")
+ADD_SUBDIRECTORY("dot")
